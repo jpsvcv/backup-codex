@@ -1,9 +1,11 @@
 blank_issues_enabled: true
 contact_links:
+  - name: Politica de seguranca
+    url: https://github.com/jpsvcv/backup-codex/security/policy
+    about: Consulte esta politica antes de reportar vulnerabilidades ou exposicao de dados.
   - name: Documentacao de uso
     url: https://github.com/jpsvcv/backup-codex/blob/main/docs/usage.md
     about: Consulte o guia de utilizacao antes de abrir uma issue.
   - name: Guia de contribuicao
     url: https://github.com/jpsvcv/backup-codex/blob/main/CONTRIBUTING.md
     about: Veja como evoluir o projeto e como preparar um pull request.
-

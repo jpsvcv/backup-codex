@@ -1,5 +1,9 @@
 # backup-codex
 
+[![CI](https://github.com/jpsvcv/backup-codex/actions/workflows/ci.yml/badge.svg)](https://github.com/jpsvcv/backup-codex/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/jpsvcv/backup-codex)](https://github.com/jpsvcv/backup-codex/releases)
+[![License](https://img.shields.io/github/license/jpsvcv/backup-codex)](https://github.com/jpsvcv/backup-codex/blob/main/LICENSE)
+
 Ferramenta em Python para fazer o backup integral do estado local do Codex e restaurá-lo em outra máquina, ou na mesma máquina em caso de falha, migração ou reinstalação.
 
 O projeto foi desenhado a partir da estrutura real observada em `~/.codex` no Windows, incluindo sessões (`sessions/`), estado local em SQLite (`state_*.sqlite`, `logs_*.sqlite`, `sqlite/`), configuração (`config.toml`), autenticação (`auth.json`, `cap_sid`), regras, skills e demais arquivos de suporte.
@@ -21,6 +25,7 @@ Documentos principais do projeto:
 - `docs/architecture.md`: visão de arquitetura e pontos de extensão
 - `CONTRIBUTING.md`: como evoluir o projeto com segurança
 - `RELEASING.md`: como gerar e publicar releases
+- `SECURITY.md`: como reportar vulnerabilidades e riscos de segurança
 - `LICENSE`: licença de uso e redistribuição
 
 Resumo:
@@ -169,6 +174,7 @@ O repositório também já inclui:
 
 - templates de issue para bug e feature request;
 - template de pull request;
+- `CODEOWNERS` para revisão padrão do repositório;
 - workflow de CI;
 - workflow de release por tag `v*`;
 - configuração de notas automáticas de release no GitHub.

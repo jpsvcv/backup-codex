@@ -30,6 +30,7 @@ Antes de alterar o projeto, vale consultar:
 - `docs/architecture.md`
 - `docs/requirements.md`
 - `RELEASING.md`
+- `SECURITY.md`
 
 ## 4. Estrutura do projeto
 
@@ -45,6 +46,7 @@ Antes de alterar o projeto, vale consultar:
 - Toda alteração de comportamento em `restore` deve continuar priorizando segurança dos dados.
 - Novas opções da CLI devem ter ajuda clara e exemplos na documentação.
 - Sempre que possível, adicione ou atualize testes para cobrir o novo comportamento.
+- Se a mudança tocar em validação, paths, overwrite ou credenciais, revise também `SECURITY.md`.
 
 ## 6. Fluxo sugerido para evoluir o projeto
 

@@ -1,0 +1,13 @@
+# Default owner for the repository.
+* @jpsvcv
+
+# Core application code.
+/codex_backup/ @jpsvcv
+
+# Tests and project documentation.
+/tests/ @jpsvcv
+/docs/ @jpsvcv
+
+# GitHub-specific automation and templates.
+/.github/ @jpsvcv
+
