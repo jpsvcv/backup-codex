@@ -34,7 +34,7 @@ Resumo:
 
 ## Escopo Atual
 
-O CLI implementado neste repositório oferece três comandos:
+O CLI implementado neste repositório oferece quatro comandos:
 
 - `inspect`: mostra o inventário que seria incluído no backup.
 - `backup`: cria um backup em diretório ou `.zip`.

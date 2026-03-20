@@ -9,7 +9,7 @@ Você pode usar a ferramenta de duas formas:
 - sem instalar o comando no sistema, com `python -m codex_backup ...`
 - com o comando curto `codex-backup ...`, após `python -m pip install -e .`
 
-Os três comandos principais são:
+Os quatro comandos principais são:
 
 - `inspect`: mostra o que seria incluído no backup.
 - `backup`: cria o backup.
