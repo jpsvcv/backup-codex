@@ -8,6 +8,7 @@ version = "0.1.0"
 description = "Ferramenta para backup e restauração do estado local do Codex."
 readme = "README.md"
 requires-python = ">=3.11"
+license = "MIT"
 authors = [
   { name = "Codex" }
 ]
@@ -21,6 +22,11 @@ classifiers = [
   "Programming Language :: Python :: 3.12",
   "Topic :: System :: Archiving :: Backup",
 ]
+
+[project.urls]
+Homepage = "https://github.com/jpsvcv/backup-codex"
+Repository = "https://github.com/jpsvcv/backup-codex"
+Issues = "https://github.com/jpsvcv/backup-codex/issues"
 
 [project.scripts]
 codex-backup = "codex_backup.cli:main"

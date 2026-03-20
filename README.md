@@ -20,6 +20,7 @@ Documentos principais do projeto:
 - `docs/usage.md`: uso detalhado da ferramenta
 - `docs/architecture.md`: visão de arquitetura e pontos de extensão
 - `CONTRIBUTING.md`: como evoluir o projeto com segurança
+- `RELEASING.md`: como gerar e publicar releases
 - `LICENSE`: licença de uso e redistribuição
 
 Resumo:
@@ -163,3 +164,11 @@ Para dar continuidade ao projeto, o ponto de entrada ideal é:
 3. executar os testes;
 4. implementar a funcionalidade desejada no `core` e expor na `cli` se necessário;
 5. atualizar a documentação e os testes.
+
+O repositório também já inclui:
+
+- templates de issue para bug e feature request;
+- template de pull request;
+- workflow de CI;
+- workflow de release por tag `v*`;
+- configuração de notas automáticas de release no GitHub.

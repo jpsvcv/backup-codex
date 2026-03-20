@@ -29,6 +29,7 @@ Antes de alterar o projeto, vale consultar:
 - `docs/usage.md`
 - `docs/architecture.md`
 - `docs/requirements.md`
+- `RELEASING.md`
 
 ## 4. Estrutura do projeto
 
@@ -61,3 +62,14 @@ Antes de alterar o projeto, vale consultar:
 - comando de reparo ou diagnóstico de backup
 - relatórios mais detalhados em JSON
 
+## 8. Releases
+
+O processo de release está documentado em `RELEASING.md`.
+
+Resumo:
+
+1. atualizar a versão;
+2. executar os testes;
+3. criar commit;
+4. criar tag `vX.Y.Z`;
+5. enviar a tag para o GitHub.

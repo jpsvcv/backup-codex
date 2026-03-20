@@ -1,0 +1,64 @@
+name: Bug report
+description: Reportar um erro ou comportamento inesperado.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por reportar um problema. Preencha os campos abaixo para facilitar a reprodução e a correção.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Resumo do problema
+      description: Explique em poucas linhas o que aconteceu.
+      placeholder: O comando restore falha quando...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Passos para reproduzir
+      description: Liste os passos para reproduzir o problema.
+      placeholder: |
+        1. Executar...
+        2. Restaurar...
+        3. Observar o erro...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Resultado esperado
+      placeholder: O backup deveria ser validado e restaurado sem erro.
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Resultado atual
+      placeholder: O comando falha com a mensagem...
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Ambiente
+      description: Informe sistema operativo, versão do Python e como instalou a ferramenta.
+      placeholder: Windows 11, Python 3.12, instalado com pip install -e .
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs ou saída relevante
+      description: Cole a saída do terminal, se aplicável.
+      render: shell
+

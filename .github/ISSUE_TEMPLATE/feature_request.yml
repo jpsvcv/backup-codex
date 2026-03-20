@@ -1,0 +1,41 @@
+name: Feature request
+description: Sugerir uma nova funcionalidade ou melhoria.
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado pela sugestão. Quanto mais concreto o cenário, mais fácil avaliar e implementar.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problema ou necessidade
+      description: Que dor ou limitação atual motivou esta sugestão?
+      placeholder: Preciso guardar backups cifrados para...
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Solução proposta
+      description: Descreva a funcionalidade desejada.
+      placeholder: Adicionar uma opção --encrypt para...
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternativas consideradas
+      description: Descreva soluções atuais ou caminhos alternativos, se existirem.
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impacto esperado
+      description: Explique quem se beneficia e em que cenário.
+
