@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "backup-codex"
+version = "0.1.0"
+description = "Ferramenta para backup e restauração do estado local do Codex."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+  { name = "Codex" }
+]
+keywords = ["codex", "backup", "restore", "cli", "sqlite"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: System :: Archiving :: Backup",
+]
+
+[project.scripts]
+codex-backup = "codex_backup.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["codex_backup*"]
