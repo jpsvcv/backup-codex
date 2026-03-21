@@ -23,6 +23,7 @@ Documentos principais do projeto:
 - `README.md`: visão geral, instalação e fluxo rápido
 - `docs/usage.md`: uso detalhado da ferramenta
 - `docs/architecture.md`: visão de arquitetura e pontos de extensão
+- `CODE_OF_CONDUCT.md`: expectativas de colaboração e convivência
 - `CONTRIBUTING.md`: como evoluir o projeto com segurança
 - `RELEASING.md`: como gerar e publicar releases
 - `SECURITY.md`: como reportar vulnerabilidades e riscos de segurança

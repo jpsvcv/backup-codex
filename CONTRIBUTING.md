@@ -26,6 +26,7 @@ python -m unittest discover -s tests -v
 Antes de alterar o projeto, vale consultar:
 
 - `README.md`
+- `CODE_OF_CONDUCT.md`
 - `docs/usage.md`
 - `docs/architecture.md`
 - `docs/requirements.md`
